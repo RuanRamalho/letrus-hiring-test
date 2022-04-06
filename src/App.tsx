@@ -1,9 +1,8 @@
-const App: React.FC = () => {
-  return (
-    <div>
-      <h1>Hello, World!</h1>
-    </div>
-  );
-};
+import React from "react";
+import RouteNavigation from "./routes";
+
+function App() {
+  return <RouteNavigation />;
+}
 
 export default App;
